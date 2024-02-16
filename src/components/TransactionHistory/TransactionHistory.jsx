@@ -7,7 +7,7 @@ const TransactionHistory = ({ manyInfo }) => {
     <>
       <table className={s.transaction}>
         <thead className={s.item}>
-          <tr>
+          <tr className={s.itemHead}>
             <th>Type</th>
             <th>Amount</th>
             <th>Currency</th>
@@ -17,10 +17,10 @@ const TransactionHistory = ({ manyInfo }) => {
         <tbody className={s.item}>
           {manyInfo.map(elem => {
             return (
-              <tr key={elem.id}>
-                <td>{elem.type}</td>
-                <td>{elem.amount}</td>
-                <td>{elem.currency}</td>
+              <tr className={s.itemTr} key={elem.id}>
+                <td className={s.td}>{elem.type}</td>
+                <td className={s.td}>{elem.amount}</td>
+                <td className={s.td}>{elem.currency}</td>
               </tr>
             );
           })}
