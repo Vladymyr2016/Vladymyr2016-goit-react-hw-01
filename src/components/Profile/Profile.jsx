@@ -1,10 +1,8 @@
 import React from 'react';
-import { ReactDOM } from 'react';
 import s from './Profile.module.css';
 
 const Profile = ({ user }) => {
   const {
-    avatar,
     username,
     tag,
     location,
