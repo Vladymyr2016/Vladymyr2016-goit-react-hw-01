@@ -1,0 +1,13 @@
+.transaction {
+    border: 1px solid black;
+}
+
+.item {}
+
+.type {
+    background-color: blue;
+}
+
+.amount {}
+
+.currency {}

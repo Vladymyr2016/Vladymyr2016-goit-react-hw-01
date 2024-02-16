@@ -1,0 +1,65 @@
+.profile {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(251, 234, 234);
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.description {}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+
+
+}
+
+.name {
+    margin: auto;
+}
+
+.tag {
+    margin: auto;
+}
+
+.location {
+    margin: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* gap: 25px; */
+    list-style: none;
+    background-color: rgb(163, 163, 237);
+    padding: 0;
+}
+
+.itemInfo {
+    border: 1px solid black;
+    height: 140px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {}
+
+.quantity {}
