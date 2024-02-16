@@ -1,13 +1,12 @@
 import React from 'react';
 import s from './Profile.module.css';
 
-const Profile = ({ user }) => {
-  const {
-    username,
-    tag,
-    location,
-    stats: { followers, likes, views },
-  } = user;
+const Profile = ({
+  username,
+  tag,
+  location,
+  stats: { followers, likes, views },
+}) => {
   return (
     <div className={s.profile}>
       <div className={s.description}>

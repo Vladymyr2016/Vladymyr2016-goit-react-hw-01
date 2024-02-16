@@ -1,11 +1,13 @@
 import React from 'react';
 import s from '../Statistics/Statistic.module.css';
 
-const Statistics = ({ data }) => {
+const Statistics = ({ stats, title }) => {
+  console.log(stats);
   return (
     <>
+      {title ? <h2>{title}</h2> : ''}
       <ul className={s.statlist}>
-        {data.map(elem => {
+        {stats.map(elem => {
           return (
             <li className={s.item} key={elem.id}>
               <span className={s.label}>{elem.label}</span>
